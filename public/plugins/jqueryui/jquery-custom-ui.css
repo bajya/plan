@@ -1,0 +1,26 @@
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+.productList li{
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+
+.productList li:hover{
+    color:white;
+    background-color: #3ab54b;
+} 
+
+.productList{
+    height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+    width: 222px;
+    position: relative;
+}
+
+.ui-datepicker-next, .ui-datepicker-prev{
+    cursor: pointer;
+}
